@@ -1,0 +1,63 @@
+.navbar {
+  background: rgb(30, 30, 30);
+  height: 80px;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.logo-navbar {
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+}
+
+.logo-navbar:hover {
+  cursor: pointer;
+}
+
+.menu-navbar {
+  margin: 32px;
+  cursor: pointer;
+  color: white;
+}
+
+.menu-navbar:hover {
+  color: yellow;
+  padding-bottom: 0.5 rem;
+  border-bottom: 3px solid yellow;
+}
+
+.menu-navbar:active {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+.kontak-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0 16px;
+  border-radius: 32px;
+  background: white;
+  color: black;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.kontak-button:hover {
+  background-color: rgb(255, 255, 198);
+}
+
+.kontak-button:active {
+  background-color: rgb(193, 193, 4);
+}

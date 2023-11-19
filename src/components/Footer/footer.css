@@ -1,0 +1,31 @@
+.footer {
+  width: 100vw;
+  height: 10rem;
+  background: rgb(40, 40, 40);
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 400px;
+}
+
+.for-more, .copyright, .kontak-footer,.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.links {
+  flex-wrap: wrap;
+}
+
+.link {
+  object-fit: cover;
+  height: 2rem;
+  width: 2rem;
+  margin: 0 0.75rem;
+}
+
+.for-more {
+  font-size: 18px;
+}

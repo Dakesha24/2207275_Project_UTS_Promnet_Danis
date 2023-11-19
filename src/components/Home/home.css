@@ -1,0 +1,84 @@
+#home {
+  height: 645px;
+  width: 100%;
+  position: relative;
+  max-width: 1150px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.home-container {
+  padding: 50px;
+  font-size: 48px;
+  font-weight: 700;
+  display: inline-block;
+  justify-content: center;
+  position: absolute;
+}
+
+.hello {
+  font-size: 28px;
+  font-weight: 100;
+  display: block;
+}
+
+.introduction {
+  color: yellow;
+  display: block;
+}
+
+.name {
+  color: yellow;
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+.deskripsi {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+.button {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .bg {
+    right: -20vw;
+  }
+  .hello {
+    font-size: 25px;
+  }
+  .home-container {
+    font-size: 35px;
+  }
+  .deskripsi {
+    font-size: 15px;
+  }
+}
+
+.button {
+  cursor: pointer;
+}
